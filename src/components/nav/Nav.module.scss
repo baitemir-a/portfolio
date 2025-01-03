@@ -16,6 +16,9 @@
     }
     a{
         font-size: 20px;
+        &:hover{
+            color:$yellow;
+        }
     }
 }
 @media (max-width: 600px){
