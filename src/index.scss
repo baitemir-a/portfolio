@@ -1,4 +1,17 @@
+@import './styles/_variables.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $blinker;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+}
 body{
   background-color: #1F2537;
-  background-image: url('../public/noise.png');
+  background-image: url('noise.png');
+}
+a{
+  color: $white;
+  text-decoration: none;
 }
