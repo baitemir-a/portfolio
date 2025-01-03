@@ -1,8 +1,11 @@
+import Banner from "../../components/banner/Banner"
 
 type Props = {}
 
 export default function CV({}: Props) {
   return (
-    <div>CV</div>
+    <div>
+        <Banner title="CV" miniTitle="my resume"/>
+    </div>
   )
 }

@@ -8,9 +8,9 @@ export default function Nav({}: Props) {
       <NavLink className={styles.name} to="/">Baitemir</NavLink>
       <div>
         <NavLink to="/">home</NavLink>
+        <NavLink to="/work">work</NavLink>
         <NavLink to="/about">about</NavLink>
         <NavLink to="/contact">contact</NavLink>
-        <NavLink to="/work">work</NavLink>
         <NavLink to="/cv">cv</NavLink>
       </div>
     </nav>

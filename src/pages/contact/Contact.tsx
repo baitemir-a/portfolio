@@ -1,7 +1,11 @@
+import Banner from "../../components/banner/Banner"
+
 type Props = {}
 
 export default function Contact({}: Props) {
   return (
-    <div>Contact</div>
+    <div>
+      <Banner title="CONTACT" miniTitle="let's work together  "/>
+    </div>
   )
 }
