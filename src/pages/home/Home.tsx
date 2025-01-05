@@ -1,3 +1,5 @@
+import About from "../../components/about/About"
+import Avatar from "../../components/avatar/Avatar"
 import Banner from "../../components/banner/Banner"
 import Brief from "../../components/brief/Brief"
 import MiniTitle from "../../components/mini-title/MiniTitle"
@@ -12,6 +14,11 @@ export default function Home({}: Props) {
         <Brief/>
         <MiniTitle>work</MiniTitle>
         <WorksSlider/>
+        <MiniTitle>about</MiniTitle>
+        <div className="home-about">
+          <About/>
+          <Avatar/>
+        </div>
     </div>
   )
 }
