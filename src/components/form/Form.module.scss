@@ -1,0 +1,49 @@
+@use "../../styles/variables.scss" as *;
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 40vw;
+  margin: 50px auto;
+  label {
+    display: block;
+    color: $yellow;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  input,
+  textarea {
+    display: block;
+    border: none;
+    border-bottom: 1px solid $white;
+    background: none;
+    padding: 10px;
+    width: 100%;
+    resize: vertical;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: $white;
+    border-bottom: 5px solid $white;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    &:hover {
+      text-shadow: 0 0 10px $yellow;
+      border-bottom: 5px solid $yellow;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .Form {
+    max-width: 80vw;
+  }
+    
+}
