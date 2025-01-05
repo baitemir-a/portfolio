@@ -1,0 +1,45 @@
+.Brief {
+  max-width: 800px;
+  margin: 100px auto;
+  font-size: 40px;
+  text-align: justify;
+  .orange {
+    color: #ffbc6d;
+  }
+  .blue {
+    color: #65edff;
+  }
+  .green {
+    color: #9cff80;
+  }
+  .red {
+    color: #e84f4f;
+  }
+  .pink {
+    color: #e065ff;
+  }
+  .purple {
+    color: #6d60fe;
+  }
+  .yellow {
+    color: #f8ff7a;
+  }
+}
+
+@media (max-width: 800px) {
+  .Brief {
+    max-width: 500px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .Brief {
+    max-width: 300px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .Brief {
+    max-width: 200px;
+  }
+}

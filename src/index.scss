@@ -1,5 +1,5 @@
-@import './styles/_variables.scss';
-*{
+@import "./styles/_variables.scss";
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,12 +8,12 @@
   scroll-behavior: smooth;
   color: $white;
 }
-body{
-  background-color: #1F2537;
-  background-image: url('noise.png');
-filter: blur(.8px);
+body {
+  background-color: #1f2537;
+  background-image: url("noise.png");
+  filter: blur(0.8px);
 }
-a{
+a {
   color: $white;
   text-decoration: none;
 }
