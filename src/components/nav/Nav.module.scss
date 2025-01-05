@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss" as colors;
 
 .Nav{
     display: flex;
@@ -17,7 +17,7 @@
     a{
         font-size: 20px;
         &:hover{
-            color:$yellow;
+            color:colors.$yellow;
         }
     }
 }

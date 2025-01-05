@@ -1,12 +1,12 @@
-@import "./styles/_variables.scss";
+@use "./styles/_variables.scss" as vars;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: $blinker;
+  font-family: vars.$blinker;
   transition: all 0.3s ease;
   scroll-behavior: smooth;
-  color: $white;
+  color: vars.$white;
 }
 body {
   background-color: #1f2537;
@@ -14,6 +14,6 @@ body {
   filter: blur(0.8px);
 }
 a {
-  color: $white;
+  color: vars.$white;
   text-decoration: none;
 }

@@ -1,0 +1,14 @@
+@use "../../styles/variables.scss" as colors;
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: colors.$yellow !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: colors.$yellow !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: colors.$yellow !important;
+}
