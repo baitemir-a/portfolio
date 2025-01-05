@@ -1,0 +1,27 @@
+@use "../../styles/variables.scss" as *;
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    a{
+        font-size: 30px;
+        &:hover{
+            text-shadow: 0 0 10px $yellow;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .Footer {
+        a{
+            font-size: 20px;
+        }
+    }
+    
+}
+@media (max-width: 400px) {
+    .Footer {
+        flex-direction: column;
+    }
+    
+}

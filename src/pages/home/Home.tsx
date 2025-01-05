@@ -15,10 +15,11 @@ export default function Home({}: Props) {
         <MiniTitle>work</MiniTitle>
         <WorksSlider/>
         <MiniTitle>about</MiniTitle>
-        <div className="home-about">
+        <section className="home-about">
           <About/>
           <Avatar/>
-        </div>
+        </section>
+        
     </div>
   )
 }
