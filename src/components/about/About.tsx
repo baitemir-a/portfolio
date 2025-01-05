@@ -1,7 +1,7 @@
 import styles from "./About.module.scss";
 type Props = {};
 
-export default function About({}: Props) {
+export default function AboutComponent({}: Props) {
   return (
     <div className={styles.About}>
       <p>

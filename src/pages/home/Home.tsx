@@ -1,4 +1,4 @@
-import About from "../../components/about/About"
+import AboutComponent from "../../components/about/About"
 import Avatar from "../../components/avatar/Avatar"
 import Banner from "../../components/banner/Banner"
 import Brief from "../../components/brief/Brief"
@@ -16,7 +16,7 @@ export default function Home({}: Props) {
         <WorksSlider/>
         <MiniTitle>about</MiniTitle>
         <section className="home-about">
-          <About/>
+          <AboutComponent/>
           <Avatar/>
         </section>
         

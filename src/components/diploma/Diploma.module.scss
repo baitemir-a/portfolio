@@ -1,0 +1,21 @@
+.Diploma {
+  > div {
+    margin: 100px auto;
+  }
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 20vw;
+    }
+  }
+  .slideh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 30vw;
+    }
+  }
+}
