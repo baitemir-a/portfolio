@@ -11,6 +11,7 @@
 body{
   background-color: #1F2537;
   background-image: url('noise.png');
+filter: blur(.8px);
 }
 a{
   color: $white;
