@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/zoom": "^3.12.0",
     "json-schema": "^0.4.0",
+    "pdfjs-dist": "^3.11.174",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.1",
