@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules"; // Correct import
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules"; 
 import "swiper/swiper-bundle.css";
-import styles from "./WorksSlider.module.scss"; // Import your custom CSS
+import styles from "./WorksSlider.module.scss"; 
 import "./custom.scss"
 const WorksSlider: React.FC = () => {
   return (
@@ -10,10 +10,8 @@ const WorksSlider: React.FC = () => {
     className={styles.WorksSlider}
       spaceBetween={50}
       slidesPerView={1}
-      navigation={true} // Enable navigation
-      pagination={{ clickable: true }} // Enable clickable pagination
-      scrollbar={{ draggable: true }} // Enable draggable scrollbar
-      modules={[Navigation, Pagination, Scrollbar, A11y]} // Pass modules correctly
+      navigation={true} 
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
     >
       <SwiperSlide className={styles.slide}>
         <img
