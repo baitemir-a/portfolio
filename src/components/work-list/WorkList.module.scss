@@ -1,0 +1,13 @@
+.WorkList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    max-width: 80vw;
+    margin: 200px auto;
+    a{
+        img{
+            width:70vw;
+        }
+    }
+}
