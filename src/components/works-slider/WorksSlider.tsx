@@ -17,19 +17,19 @@ const WorksSlider: React.FC = () => {
     >
       <SwiperSlide className={styles.slide}>
         <img
-          src="https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg"
+          src="https://fakinstudio.com/storage/6/responsive-images/hQC00JJB2PmFvyjBRIwMoC3uPWTuDlzgL0bPnZZ6___webp_1748_1094.webp"
           alt="Work 1"
         />
       </SwiperSlide>
       <SwiperSlide className={styles.slide}>
         <img
-          src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg"
+          src="https://fakinstudio.com/storage/5/responsive-images/L9Tn5zQShsbZetHCgPobD174eTxxdemVx7iophkb___webp_1748_1094.webp"
           alt="Work 2"
         />
       </SwiperSlide>
       <SwiperSlide className={styles.slide}>
         <img
-          src="https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg"
+          src="https://fakinstudio.com/storage/11/responsive-images/u9iFmNevD2woeNU5bColNGntoEqmqTaRSc3XtOor___webp_1748_1094.webp"
           alt="Work 3"
         />
       </SwiperSlide>
