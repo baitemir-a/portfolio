@@ -8,6 +8,7 @@ import Contact from "./pages/contact/Contact";
 import MiniTitle from "./components/mini-title/MiniTitle";
 import Footer from "./components/footer/Footer";
 import Anchor from "./components/anchor/Anchor";
+import Project from "./pages/project/Project";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/work/:id" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cv" element={<CV />} />

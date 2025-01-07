@@ -1,8 +1,9 @@
+import React from 'react'
 import styles from './Banner.module.scss'
 
 type Props = {
     title:string
-    miniTitle:string
+    miniTitle:string|React.ReactNode
 }
 
 export default function Banner({title, miniTitle}: Props) {
